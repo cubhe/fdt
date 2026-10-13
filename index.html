@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Fluorescence Diffraction Tomography using Explicit Neural Fields">
+        content="Fluorescence-illuminated diffraction tomography using explicit neural fields">
   <meta name="keywords" content="Tomography, Neural Fields">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Fluorescence Diffraction Tomography using Explicit Neural Fields</title>
+  <title>Fluorescence-illuminated diffraction tomography using explicit neural fields</title>
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-8K12W1G48T"></script>
@@ -112,7 +112,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Fluorescence Diffraction Tomography using Explicit Neural Fields</h1>
+          <h1 class="title is-1 publication-title">Fluorescence-illuminated diffraction tomography using explicit neural fields</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="">Renzhi He</a>,</span>
@@ -120,8 +120,11 @@
               <a href="">Yucheng Li</a>,</span>
             <span class="author-block">
               <a href="">Junjie Chen</a>,</span>
+            <span class="author-block">Truc M. Dinh,</span>
+            <span class="author-block">Charlotte R. Stevens,</span>
+            <span class="author-block">Aidan E. Gilchrist,</span>
             <span class="author-block">
-              <a href="https://cobi.ucdavis.edu/people">Yi Xue*</a>,
+              <a href="https://cobi.ucdavis.edu/people">Yi Xue*</a></span>
           </div>
 
           <div class="is-size-5 publication-authors">
@@ -133,7 +136,7 @@
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="http://arxiv.org/abs/2407.16657"
+                <a href="https://doi.org/10.1038/s41467-026-78326-x"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -276,16 +279,9 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Simultaneous imaging of fluorescence-labeled and label-free phase objects in the same sample can provide distinct and complementary information. Most multimodal fluorescence-phase imaging operates in transmission mode, capturing fluorescence images and phase images separately or sequentially, which limits their practical use for in vivo applications. Alternatively, simultaneous fluorescence-phase imaging in reflection mode, which captures diffracted fluorescence and then reconstructs phase information from fluorescence images, has been demonstrated with fluorescent beads and label-free single-layer cells. However, reconstructing the 3D refractive index (RI) of thick samples from fluorescence images over a large volume and at high resolution remains challenging.
+            Multimodal fluorescence and phase imaging provides complementary information about biological samples. However, existing simultaneous fluorescence-phase techniques primarily operate in transmission mode and are limited to thin specimens, restricting their use in thick tissues and in vivo applications. Although multiphoton microscopy enables deep-tissue fluorescence imaging, combining it with three-dimensional refractive-index (RI) imaging remains challenging because few methods can reconstruct the RI of bulky, label-free tissues in reflection mode at subcellular resolution. Here, we introduce fluorescence-illuminated diffraction tomography (FDT), which reconstructs the 3D RI of label-free and fluorescence-labeled objects from diffracted fluorescence images acquired in reflection mode under two-photon excitation. FDT uses the transport of intensity equation and a self-supervised neural network based on explicit neural fields. Compared with state-of-the-art implicit neural fields, this approach improves computational speed, reconstruction accuracy, and interpretability. We demonstrate FDT in two experimental regimes: reconstructing the 3D RI of label-free tissues up to 300 μm thick placed on a fluorescent substrate, and reconstructing the 3D RI of fluorescence-labeled, 3D-cultured cells without transmission-side access using fluorescence emitted by the cells themselves. FDT establishes a foundation for accessible reflection-mode multimodal fluorescence-phase imaging in complex biological systems.
           </p>
-          <p>  
-            To tackle this challenge, we develop fluorescence diffraction tomography (FDT) with explicit neural fields to reconstruct the 3D RI of thick samples from diffracted fluorescence images captured on a defocused image plane. The successful reconstruction of 3D RI using FDT relies on four key components: coarse-to-fine structure, self-calibration, a differential multi-slice rendering model, and partial coherent masks. The explicit representation integrates with coarse-to-fine structure for high-speed, high-resolution reconstruction, while the differential multi-slice rendering model enables self-calibration of system parameters, ensuring accurate forward image prediction and RI reconstruction. Partial coherent masks efficiently resolve discrepancies between the coherent light model and partial coherent light data.
-          </p>
-          <p>  
-            FDT successfully reconstructed the RI of 3D cultured label-free 3D MuSCs tube in a 530 x 530 x 300 µm<span class="superscript">3</span> volume
-            at 1024 x 1024 pixels across 24 z-layers from fluorescence images, demonstrating high fidelity 3D RI reconstruction of bulky and heterogeneous 
-            biological samples in vitro.
-          </p>
+          <p class="is-size-7">Abstract reproduced from <a href="https://doi.org/10.1038/s41467-026-78326-x">He et al., Nature Communications (2026)</a> under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
         </div>
       </div>
     </div>
@@ -644,14 +640,13 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@misc{he2024fluorescencediffractiontomographyusing,
-      title={Fluorescence Diffraction Tomography using Explicit Neural Fields}, 
-      author={Renzhi He and Yucheng Li and Junjie Chen and Yi Xue},
-      year={2024},
-      eprint={2407.16657},
-      archivePrefix={arXiv},
-      primaryClass={physics.optics},
-      url={https://arxiv.org/abs/2407.16657}, 
+    <pre><code>@article{he2026fluorescence,
+      title={Fluorescence-illuminated diffraction tomography using explicit neural fields},
+      author={He, Renzhi and Li, Yucheng and Chen, Junjie and Dinh, Truc M. and Stevens, Charlotte R. and Gilchrist, Aidan E. and Xue, Yi},
+      journal={Nature Communications},
+      year={2026},
+      doi={10.1038/s41467-026-78326-x},
+      url={https://doi.org/10.1038/s41467-026-78326-x}
 }</code></pre>
   </div>
 </section>
