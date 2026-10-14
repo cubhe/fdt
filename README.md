@@ -1,17 +1,21 @@
-# Fluorescence Diffraction Tomography using Explicit Neural Fields
+# Fluorescence-illuminated diffraction tomography using explicit neural fields
 
 This is the repository that contains source code for the [FDT website](https://cubhe.github.io/fdt/).
 
-If you find Nerfies useful for your work please cite:
-```
-@misc{he2024fluorescencediffractiontomographyusing,
-      title={Fluorescence Diffraction Tomography using Explicit Neural Fields}, 
-      author={Renzhi He and Yucheng Li and Junjie Chen and Yi Xue},
-      year={2024},
-      eprint={2407.16657},
-      archivePrefix={arXiv},
-      primaryClass={physics.optics},
-      url={https://arxiv.org/abs/2407.16657}, 
+## Citation
+
+If you find FDT useful for your work, please cite:
+
+He, R., Li, Y., Chen, J. et al. Fluorescence-illuminated diffraction tomography using explicit neural fields. Nat Commun (2026). https://doi.org/10.1038/s41467-026-78326-x
+
+```bibtex
+@article{he2026fluorescence,
+      title={Fluorescence-illuminated diffraction tomography using explicit neural fields},
+      author={He, Renzhi and Li, Yucheng and Chen, Junjie and Dinh, Truc M. and Stevens, Charlotte R. and Gilchrist, Aidan E. and Xue, Yi},
+      journal={Nature Communications},
+      year={2026},
+      doi={10.1038/s41467-026-78326-x},
+      url={https://doi.org/10.1038/s41467-026-78326-x}
 }
 ```
 
